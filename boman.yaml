@@ -1,0 +1,21 @@
+Auth:
+  project_token: 71803bea-bba4-4f25-a0b5-e629e3754499
+  customer_token: 5b2f4dbd-a873-4042-8441-ff38fef71ed5
+#SAST:
+  #language: semgrep
+#DAST:
+  #type: WEB
+  #URL: https://railsgoat.cktricky.com/
+#SCA:
+  #language: ruby
+  #type: sbom
+  #target: app/assets/config/bom.json
+  #type: lockfile
+  #target: Gemfile.lock
+#Secret_Scan: true
+#container_scan:
+  #type: config
+  #target: /openshift-configs/Dockerfile
+  #type: image
+  #target: debian:unstable-slim
+SBOM: true
