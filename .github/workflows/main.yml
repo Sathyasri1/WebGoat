@@ -26,3 +26,4 @@ jobs:
         #sudo pip install boman-cli
       - name: Run scan
         run: sudo boman-cli-uat -a run -u https://qa.boman.ai/
+        
